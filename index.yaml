@@ -3,9 +3,9 @@ entries:
   apache:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-09T18:04:21.399312+01:00"
-    description: My-App
-    digest: 4aad80c098be59285f424712bf7ddc2ebb40b21cab58621911a897c0398b0965
+    created: "2020-12-09T18:12:53.857899+01:00"
+    description: Apache Chart
+    digest: a804685119b5307e19e633d5851184d570ad98461d5e4c33e65d2cceaf32d376
     name: apache
     sources:
     - https://raw.githubusercontent.com/halaoner/helm-test/apache
@@ -16,9 +16,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-09T18:04:21.400372+01:00"
+    created: "2020-12-09T18:12:53.858295+01:00"
     description: Nginx Chart
-    digest: 737b524b9118f531a8270f88f3da2fe46fb9801cc836e24906655caa202d3d0c
+    digest: 71de211907ba35eae8d08aadae5ebf238eb770130f3eff2c9027dba069c1babe
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - nginx
@@ -29,4 +29,4 @@ entries:
     urls:
     - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T18:04:21.393551+01:00"
+generated: "2020-12-09T18:12:53.857513+01:00"
