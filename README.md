@@ -1,2 +1,2 @@
-# helm-test
-Testing-repo
+# helm-repo
+Testing Helm repo
