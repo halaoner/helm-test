@@ -8,7 +8,7 @@ entries:
     digest: 4aad80c098be59285f424712bf7ddc2ebb40b21cab58621911a897c0398b0965
     name: apache
     sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test
+    - https://raw.githubusercontent.com/halaoner/helm-test/apache
     type: application
     urls:
     - apache-0.1.0.tgz
