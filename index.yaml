@@ -13,18 +13,6 @@ entries:
     urls:
     - apache-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-12-09T18:04:21.400652+01:00"
-    description: My first helm chart
-    digest: 95150dc44e7434636b4d51f3d31d850fb37d9b2a93d1ff825ac0d12983282084
-    name: apache
-    sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test
-    type: application
-    urls:
-    - apache/apache-0.1.0.tgz
-    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
@@ -36,24 +24,9 @@ entries:
     - nginx
     name: nginx
     sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test
+    - https://raw.githubusercontent.com/halaoner/helm-test/nginx
     type: application
     urls:
     - nginx-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.2.0
-    created: "2020-12-09T18:04:21.40462+01:00"
-    description: My first helm chart
-    digest: f6f73f169f4798895532ccf479b93e891c3115ce6dec5c76172b744e2211fab2
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
-    keywords:
-    - nginx
-    name: nginx
-    sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test
-    type: application
-    urls:
-    - nginx/nginx-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-09T18:04:21.393551+01:00"
