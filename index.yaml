@@ -1,3 +1,19 @@
 apiVersion: v1
-entries: {}
-generated: "2020-12-09T14:43:10.748264+01:00"
+entries:
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-12-09T15:42:40.821521+01:00"
+    description: My first helm chart
+    digest: fc6c0ede03e9a0872910f9c5faf70637ccb1b9f01ff19b5c24d73697c14910f2
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - nginx
+    name: nginx
+    sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
+    type: application
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-09T15:42:40.817667+01:00"
