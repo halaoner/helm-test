@@ -3,7 +3,19 @@ entries:
   apache:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-09T17:05:56.764418+01:00"
+    created: "2020-12-09T17:22:18.709604+01:00"
+    description: Apache Chart
+    digest: ecd5096a48d11907424644fad7907001611f95376ece2d54bf01c435d8d56c09
+    name: apache
+    sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
+    type: application
+    urls:
+    - apache-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-12-09T17:22:18.710878+01:00"
     description: My first helm chart
     digest: 95150dc44e7434636b4d51f3d31d850fb37d9b2a93d1ff825ac0d12983282084
     name: apache
@@ -11,12 +23,27 @@ entries:
     - https://raw.githubusercontent.com/halaoner/helm-test
     type: application
     urls:
-    - httpd/apache-0.1.0.tgz
+    - apache/apache-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-09T17:05:56.764177+01:00"
+    created: "2020-12-09T17:22:18.710607+01:00"
+    description: Nginx Chart
+    digest: 5c71f1a86a6b6d3c35d01fd0d407621363270fa8a48905faa48b58469c8b168a
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - nginx
+    name: nginx
+    sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
+    type: application
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2020-12-09T17:22:18.712935+01:00"
     description: My first helm chart
     digest: f6f73f169f4798895532ccf479b93e891c3115ce6dec5c76172b744e2211fab2
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
@@ -27,6 +54,6 @@ entries:
     - https://raw.githubusercontent.com/halaoner/helm-test
     type: application
     urls:
-    - helm-test/nginx-0.1.0.tgz
+    - nginx/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T17:05:56.762281+01:00"
+generated: "2020-12-09T17:22:18.709171+01:00"
