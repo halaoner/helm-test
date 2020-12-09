@@ -4,5 +4,5 @@ description: My first helm chart
 type: application
 version: 0.1.0
 appVersion: 1.0.0
- sources:
-    - https://github.com/halaoner/helm-test
+sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
