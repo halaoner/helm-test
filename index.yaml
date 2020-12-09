@@ -3,9 +3,9 @@ entries:
   apache:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-09T17:22:18.709604+01:00"
-    description: Apache Chart
-    digest: ecd5096a48d11907424644fad7907001611f95376ece2d54bf01c435d8d56c09
+    created: "2020-12-09T17:26:35.514273+01:00"
+    description: My-App
+    digest: 4aad80c098be59285f424712bf7ddc2ebb40b21cab58621911a897c0398b0965
     name: apache
     sources:
     - https://raw.githubusercontent.com/halaoner/helm-test
@@ -15,7 +15,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-09T17:22:18.710878+01:00"
+    created: "2020-12-09T17:26:35.515671+01:00"
     description: My first helm chart
     digest: 95150dc44e7434636b4d51f3d31d850fb37d9b2a93d1ff825ac0d12983282084
     name: apache
@@ -28,9 +28,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-09T17:22:18.710607+01:00"
+    created: "2020-12-09T17:26:35.515339+01:00"
     description: Nginx Chart
-    digest: 5c71f1a86a6b6d3c35d01fd0d407621363270fa8a48905faa48b58469c8b168a
+    digest: 737b524b9118f531a8270f88f3da2fe46fb9801cc836e24906655caa202d3d0c
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - nginx
@@ -43,7 +43,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-09T17:22:18.712935+01:00"
+    created: "2020-12-09T17:26:35.518648+01:00"
     description: My first helm chart
     digest: f6f73f169f4798895532ccf479b93e891c3115ce6dec5c76172b744e2211fab2
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
@@ -56,4 +56,4 @@ entries:
     urls:
     - nginx/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T17:22:18.709171+01:00"
+generated: "2020-12-09T17:26:35.508765+01:00"
