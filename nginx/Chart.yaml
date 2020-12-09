@@ -1,0 +1,11 @@
+apiVersion: v2
+name: nginx
+description: Nginx Chart
+type: application
+version: 0.1.0
+appVersion: 1.2.0
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+keywords:
+    - nginx
+sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test

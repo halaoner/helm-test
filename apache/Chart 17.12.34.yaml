@@ -1,0 +1,8 @@
+apiVersion: v2
+name: apache
+description: Apache Chart
+type: application
+version: 0.1.0
+appVersion: 1.0.0
+sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
