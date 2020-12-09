@@ -3,9 +3,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-09T15:52:23.659262+01:00"
+    created: "2020-12-09T16:23:12.505374+01:00"
     description: My first helm chart
-    digest: fc6c0ede03e9a0872910f9c5faf70637ccb1b9f01ff19b5c24d73697c14910f2
+    digest: 4cdabb1f9a59427cbb7f672d4a6ffdb8ce9d50f661eb1c426e53fe57818727d3
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - nginx
@@ -14,6 +14,21 @@ entries:
     - https://raw.githubusercontent.com/halaoner/helm-test
     type: application
     urls:
-    - https://github.com/halaoner/helm-test/releases/download/1.0.0/nginx-0.1.0.tgz/nginx-0.1.0.tgz
+    - https://github.com/halaoner/helm-test/releases/tag/1.1.0/nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-12-09T16:23:12.504443+01:00"
+    description: My first helm chart
+    digest: 056fcea153b1f6ff3a825bb061c5df69b6b85db35e2be213c7bc4a005ad010ec
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - nginx
+    name: nginx
+    sources:
+    - https://raw.githubusercontent.com/halaoner/helm-test
+    type: application
+    urls:
+    - https://github.com/halaoner/helm-test/releases/tag/1.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T15:52:23.656695+01:00"
+generated: "2020-12-09T16:23:12.503169+01:00"
