@@ -11,7 +11,7 @@ entries:
     - https://raw.githubusercontent.com/halaoner/helm-test/apache
     type: application
     urls:
-    - https://github.com/halaoner/helm-test/releases/download/1.1.0/apache-0.1.0.tgz
+    - https://github.com/halaoner/helm-test/releases/download/1.1.1/apache-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
