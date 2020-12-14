@@ -11,7 +11,7 @@ entries:
     - nginx
     name: nginx
     sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test/nginx
+    - https://github.com/halaoner/helm-test/releases/download/0.1.0/nginx-0.1.0.tgz
     type: application
     urls:
     - nginx-0.1.0.tgz
