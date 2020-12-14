@@ -1,24 +1,11 @@
 apiVersion: v1
 entries:
-  apache:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-12-09T18:12:53.857899+01:00"
-    description: Apache Chart
-    digest: a804685119b5307e19e633d5851184d570ad98461d5e4c33e65d2cceaf32d376
-    name: apache
-    sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test/apache
-    type: application
-    urls:
-    - https://github.com/halaoner/helm-test/releases/download/1.1.1/apache-0.1.0.tgz
-    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-09T18:12:53.858295+01:00"
+    created: "2020-12-14T15:05:47.516731+01:00"
     description: Nginx Chart
-    digest: 71de211907ba35eae8d08aadae5ebf238eb770130f3eff2c9027dba069c1babe
+    digest: ca733ca663316d839ba86a9b4d6024510afc5fbcfe9b6bbf76dcd4fe563bfe2f
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - nginx
@@ -27,6 +14,6 @@ entries:
     - https://raw.githubusercontent.com/halaoner/helm-test/nginx
     type: application
     urls:
-    - https://github.com/halaoner/helm-test/releases/download/1.0.0/nginx-0.1.0.tgz
+    - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T18:12:53.857513+01:00"
+generated: "2020-12-14T15:05:47.516284+01:00"
