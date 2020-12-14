@@ -8,4 +8,4 @@ icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/5
 keywords:
     - nginx
 sources:
-    - https://raw.githubusercontent.com/halaoner/helm-test/nginx
+    - https://raw.githubusercontent.com/halaoner/helm-repo/nginx
