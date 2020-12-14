@@ -3,7 +3,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-12-14T15:10:51.076504+01:00"
+    created: "2020-12-14T15:18:47.709436+01:00"
     description: Nginx Chart
     digest: 3606f848bcbc263ae9ad91886d7f0e1f49d2c6f4823eb70127692ab6ecf6f034
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
@@ -11,9 +11,9 @@ entries:
     - nginx
     name: nginx
     sources:
-    - https://raw.githubusercontent.com/halaoner/helm-repo
+    - https://raw.githubusercontent.com/halaoner/helm-test/nginx
     type: application
     urls:
-    - https://github.com/halaoner/helm-test/releases/download/0.1.0/nginx-0.1.0.tgz
+    - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-14T15:10:51.07514+01:00"
+generated: "2020-12-14T15:18:47.706912+01:00"
